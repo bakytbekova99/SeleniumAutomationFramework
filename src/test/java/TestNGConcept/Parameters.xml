@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parameters Practice">
+    <test name="Logic Practice">
+        <parameter name="firstName" value="Aliyah"> </parameter>
+        <parameter name="lastName" value="Bakytbekova"> </parameter>
+        <parameter name="zipCode" value="77042"> </parameter>
+        <classes>
+            <class name="TestNGConcept.ParameterLogic"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <test name="Project 1 Test Cases">
+        <classes>
+            <class name="SelfPractice.Project1.tests.Project1HomePageTest"></class>
+        </classes>
+    </test>
+</suite>
